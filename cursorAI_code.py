@@ -8,7 +8,7 @@ def get_tag(tags, key):
             return tag['Value'].replace(" ", "")
     return ''
 
-session = boto3.Session(profile_name="skyvera", region_name="us-east-1")
+session = boto3.Session(profile_name="keyan", region_name="us-east-1")
 ec2_resource = session.resource(service_name="ec2")
 
 data = []
