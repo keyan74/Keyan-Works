@@ -2,7 +2,7 @@ import boto3
 import csv
 
 # AWS credentials and region
-aws_profile = 'skyvera'
+aws_profile = 'keyan'
 aws_region = 'us-east-1'
 
 # Initialize Boto3 EC2 client
