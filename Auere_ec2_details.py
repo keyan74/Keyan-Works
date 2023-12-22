@@ -11,7 +11,7 @@ def get_tag(tags,key):
 
     return ''
 
-session=boto3.Session(profile_name="skyvera", region_name="us-east-1") #boto3 session, aws profile
+session=boto3.Session(profile_name="keyan", region_name="us-east-1") #boto3 session, aws profile
 
 ec2_resource=session.resource(service_name="ec2") # resource object method
 
