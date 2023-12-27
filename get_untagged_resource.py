@@ -110,7 +110,7 @@ def get_resouces_by_region(aws_account_id, region):
         result.append(["Volume", i.id, i.tags])
 
     return result
-dev = boto3.Session(profile_name="skyvera")
+dev = boto3.Session(profile_name="keyan")
 iam = dev.resource("iam")
 account_id = iam.CurrentUser().arn.split(':')[4]
 resources = get_untagged_resouces(account_id)
