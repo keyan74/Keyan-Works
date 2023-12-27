@@ -2,7 +2,7 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import boto3
 
-dev = boto3.Session(profile_name="skyvera")
+dev = boto3.Session(profile_name="keyan")
 
 client = dev.client('ec2', region_name='us-east-1')
 
