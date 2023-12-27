@@ -2,7 +2,7 @@ import boto3
 from datetime import datetime, timedelta
 
 # AWS credentials and region
-aws_profile = 'skyvera'
+aws_profile = 'keyan'
 aws_region = 'us-east-1'
 
 # Initialize Boto3 CloudWatch client
@@ -10,7 +10,7 @@ session = boto3.Session(profile_name=aws_profile, region_name=aws_region)
 cloudwatch = session.client('cloudwatch')
 
 # Specify EC2 instance ID and metric name
-instance_id = 'i-00896b4dde86ef071'
+instance_id = 'i-sddadddf6ef32'
 metric_name = 'CPUUtilization'
 
 # Specify the time range for the metric data
