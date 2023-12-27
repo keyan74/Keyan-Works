@@ -1,5 +1,5 @@
 import boto3
-dev = boto3.Session(profile_name="skyvera", region_name="us-east-1")
+dev = boto3.Session(profile_name="keyan", region_name="us-east-1")
 def list_ec2_instances():
     ec2 = dev.resource('ec2')
 
