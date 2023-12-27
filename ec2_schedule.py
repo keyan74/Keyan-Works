@@ -2,7 +2,7 @@ import boto3
 
 from oauth2client.service_account import ServiceAccountCredentials
 
-dev = boto3.Session(profile_name="skyvera", region_name="us-east-1")
+dev = boto3.Session(profile_name="keyan", region_name="us-east-1")
 
 client = dev.client('ec2', region_name='us-east-1')
 
