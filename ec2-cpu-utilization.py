@@ -1,6 +1,6 @@
 import boto3
 
-dev = boto3.Session(profile_name="skyvera")
+dev = boto3.Session(profile_name="keyan")
 
 ec2_client = dev.client('ec2', region_name='us-east-1')
 cloudwatch_client = dev.client('cloudwatch', region_name='us-east-1')
