@@ -4,7 +4,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 from gchat import sent_gchat_message
 import pandas as pd
 
-dev = boto3.Session(profile_name="skyvera")
+dev = boto3.Session(profile_name="keyan")
 
 client = dev.client('ec2', region_name='us-east-1')
 
