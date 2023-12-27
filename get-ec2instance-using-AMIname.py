@@ -3,7 +3,7 @@ def get_instance_id_by_ami_name(ami_name):
     # Set your AWS credentials and region
 
     # Create an EC2 client
-    dev = boto3.Session(profile_name="skyvera")
+    dev = boto3.Session(profile_name="keyan")
 
     ec2 = dev.client('ec2', region_name='us-east-1')
 
