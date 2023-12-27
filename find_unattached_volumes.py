@@ -1,5 +1,5 @@
 import boto3
-session = boto3.Session(profile_name="skyvera", region_name="us-east-1")
+session = boto3.Session(profile_name="keyan", region_name="us-east-1")
 ec2_resource = session.resource(service_name="ec2")
 
 unattached_volumes = ec2_resource.volumes.filter(
