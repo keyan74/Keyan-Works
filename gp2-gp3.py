@@ -3,7 +3,7 @@ import boto3
 
 def change_all_volumes_to_gp3():
     # Set your AWS credentials and region
-    dev = boto3.Session(profile_name="skyvera")
+    dev = boto3.Session(profile_name="keyan")
 
     ec2 = dev.client('ec2', region_name='us-east-1')
     # Create an EC2 client
